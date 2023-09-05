@@ -1,30 +1,10 @@
+import Header from "./components/Headerf/Header";
 
 function App() {
   return (
     <div>
        <div id="wrapper">
-      <header>
-        <a id="logo" href="/"
-          ><img id="logo-img" src="./images/logo.jpg" alt=""
-        /></a>
-
-        <nav>
-          <div>
-            <a href="#">Dashboard</a>
-          </div>
-
-          <div className="user">
-            <a href="#">Create Offer</a>
-            <a href="#">Logout</a>
-          </div>
-
-          <div className="guest">
-            <a href="#">Login</a>
-            <a href="#">Register</a>
-          </div>
-        </nav>
-      </header>
-
+      <Header/>
       <main>
         <section id="home">
           <img
