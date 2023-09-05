@@ -1,4 +1,5 @@
-import Header from "./components/Headerf/Header";
+import Header from "./components/Header/Header";
+import HomePage from "./components/Pages/HomePage";
 
 function App() {
   return (
@@ -6,14 +7,7 @@ function App() {
        <div id="wrapper">
       <Header/>
       <main>
-        <section id="home">
-          <img
-            src="./images/pngkey.com-hunting-png-6697165-removebg-preview.png"
-            alt="home"
-          />
-          <h2>Searching for a job?</h2>
-          <h3>The right place for a new career start!</h3>
-        </section>
+        <HomePage/>
 
         <section id="dashboard">
           <h2>Job Offers</h2>
