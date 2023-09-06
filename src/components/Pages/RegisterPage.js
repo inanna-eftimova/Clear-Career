@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const RegisterPage = () => {
     return (
         <section id="register">
@@ -23,7 +25,7 @@ const RegisterPage = () => {
                 placeholder="repeat password"
               />
               <button type="submit">register</button>
-              <p className="message">Already registered? <a href="#">Login</a></p>
+              <p className="message">Already registered? <Link href="/login">Login</Link></p>
             </form>
           </div>
         </section>

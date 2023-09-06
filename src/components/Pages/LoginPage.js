@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const LoginPage = () => {
     return (
         <section id="login">
@@ -13,7 +15,7 @@ const LoginPage = () => {
             />
             <button type="submit">login</button>
             <p className="message">
-              Not registered? <a href="#">Create an account</a>
+              Not registered? <Link href="/register">Create an account</Link>
             </p>
           </form>
         </div>

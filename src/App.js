@@ -21,8 +21,6 @@ function App() {
             <Route path="/create" element={<CreatePage />} />
             <Route path="/dashboard" element={<DashboardPage />} />
           </Routes>
-          <HomePage />
-
         </main>
       </div>
       <Footer />
